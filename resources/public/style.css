@@ -8,3 +8,7 @@ body {
 }
 
 h3 {font-size: 32px;}
+
+svg { width: 24px; }
+.primary { fill: #800; }
+.secondary { fill: #800; }
