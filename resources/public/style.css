@@ -8,7 +8,18 @@ body {
 }
 
 h3 {font-size: 32px;}
+h4 {font-size: 32px;}
+h5 {font-size: 32px;}
 
 svg { width: 24px; }
-.primary { fill: #800; }
-.secondary { fill: #800; }
+.primary { fill: #777; }
+.secondary { fill: #000; }
+
+.header {
+    display: flex;
+}
+
+.summary-links > div {
+    display: flex;
+    justify-content: space-between;
+}
