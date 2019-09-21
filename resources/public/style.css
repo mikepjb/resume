@@ -22,9 +22,13 @@ svg { width: 24px; }
 
 .header {
     display: flex;
+    width: 75%;
+    align-items: baseline;
 }
 
 .summary-links > div {
     display: flex;
+    font-size: 14px;
+    white-space: nowrap;
     justify-content: space-between;
 }
