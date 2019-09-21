@@ -2,16 +2,12 @@
   (:require [reagent.core :as reagent]
             [resume.svg :as svg]))
 
-(enable-console-print!)
-
-(println "alright!")
-
 (defonce state (reagent/atom {}))
 
 (defn title []
   [:div
    [:h3 "Michael Bruce"]
-   [:h4 "Software Engineer"]
+   [:h5 "Software Engineer"]
    [:p "A resourceful software enthusiast with 6 years of experience in software development. Keen to provide business value and deliver things that matter."]])
 
 (defn summary-links
@@ -31,6 +27,16 @@
   [:div.work-experience
    [:h4 "Work Experience"]])
 
+(defn experience-header
+  [title company-name from to location]
+  [:div.experience-header
+   [:div
+    [:h5 title]
+    [:h6 company-name]]
+   [:div
+    [:div (str from " - " to)]
+    [:div location]]])
+
 (defn content []
   [:div
    [:div.header
@@ -38,6 +44,7 @@
     [summary-links]]
    [:hr]
    [work-experience]
+   [experience-header "Software Engineer" "Mercury Holidays" "06/2019" "Present" "Sevenoaks, Kent"]
    ])
 
 (reagent/render [content] (.getElementById js/document "app"))
