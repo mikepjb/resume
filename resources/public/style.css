@@ -26,8 +26,8 @@ svg { width: 24px; }
 
 .header {
     display: flex;
-    width: 75%;
     align-items: baseline;
+    justify-content: space-between;
 }
 
 .experience-header {

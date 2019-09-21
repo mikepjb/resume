@@ -5,7 +5,7 @@
 (defonce state (reagent/atom {}))
 
 (defn title []
-  [:div
+  [:div {:style {:width "65%"}}
    [:h3 "Michael Bruce"]
    [:h5 "Software Engineer"]
    [:p "A resourceful software enthusiast with 6 years of experience in software development. Keen to provide business value and deliver things that matter."]])
