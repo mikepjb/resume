@@ -45,11 +45,17 @@
    [:div.columns
     [:div.column
      [column-section "Work Experience"]
-     [experience-header "Software Engineer" "Mercury Holidays" "06/2019" "Present" "Sevenoaks, Kent"]]
-    [:div.column
-     [column-section "Open Source"]
-     [column-section "Education"]
      [experience-header "Software Engineer" "Mercury Holidays" "06/2019" "Present" "Sevenoaks, Kent"]
+     [experience-header "Developer" "Strategic Blue" "02/2017" "06/2019" "London Bridge, London"]
+     [experience-header "Developer" "Singletrack" "04/2014" "02/2017" "Old Street, London"]
+     [experience-header "Technical Analyst" "M&C Saatchi Mobile" "09/2013" "02/2014" "Leicester Square, London"]
+     [experience-header "Android Developer" "Magazine Cloner" "06/2012" "08/2012" "Old Street, London"]
+     ]
+    [:div.column
+     [column-section "Open Source & Projects"]
+     [column-section "Education"]
+     [experience-header "Computer Science BSc, 1st Class" "The University of Hertfordshire" "09/2009" "06/2013" "Hatfield, Hertfordshire"]
+     [experience-header "3 A Level, 1 AS Level" "Weald of Kent Grammar School" "09/2007" "06/2009" "Tonbridge, Kent"]
      [column-section "Skills"]
 
      ]]
