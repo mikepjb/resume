@@ -21,6 +21,9 @@
    [:div "me@michaelbruce.co" svg/mail]
    [:div [:a {:href "https://github.com/mikepjb"} "https://github.com/mikepjb"] svg/id]
    [:div [:a {:href "07714030087"} "07714030087"] svg/phone]
+   [:div [:a {:href "https://www.linkedin.com/in/mikepjb"} "https://www.linkedin.com/in/mikepjb"] svg/id]
+
+   ;; 
    [:div "Sevenoaks, England" svg/location]])
 
 (defn work-experience
