@@ -22,10 +22,9 @@
    ;; 
    [:div "Sevenoaks, England" svg/location]])
 
-(defn work-experience
-  []
-  [:div.work-experience
-   [:h4 "Work Experience"]])
+(defn column-section
+  [title]
+  [:div [:h4 title]])
 
 (defn experience-header
   [title company-name from to location]
@@ -45,11 +44,15 @@
    [:hr]
    [:div.columns
     [:div.left-column
-     [work-experience]
+     [column-section "Work Experience"]
      [experience-header "Software Engineer" "Mercury Holidays" "06/2019" "Present" "Sevenoaks, Kent"]]
     [:div.right-column
-     [work-experience]
-     [experience-header "Software Engineer" "Mercury Holidays" "06/2019" "Present" "Sevenoaks, Kent"]]]
+     [column-section "Open Source"]
+     [column-section "Education"]
+     [experience-header "Software Engineer" "Mercury Holidays" "06/2019" "Present" "Sevenoaks, Kent"]
+     [column-section "Skills"]
+
+     ]]
    ])
 
 (reagent/render [content] (.getElementById js/document "app"))
