@@ -5,6 +5,7 @@ html, body {
 
 body {
     font-family: 'Aleo', serif;
+    margin: 32px;
 }
 
 h1, h2, h3, h4 { margin: 16px 0; }
@@ -32,11 +33,17 @@ svg { width: 24px; }
 .experience-header {
     display: flex;
     align-items: baseline;
+    justify-content: space-between;
 }
 
 .summary-links > div {
     display: flex;
     font-size: 14px;
     white-space: nowrap;
+    justify-content: space-between;
+}
+
+.columns {
+    display: flex;
     justify-content: space-between;
 }

@@ -30,7 +30,7 @@
 (defn experience-header
   [title company-name from to location]
   [:div.experience-header
-   [:div
+   [:div ;; {:style {:margin-right 100}}
     [:h5 title]
     [:h6 company-name]]
    [:div
@@ -43,8 +43,13 @@
     [title]
     [summary-links]]
    [:hr]
-   [work-experience]
-   [experience-header "Software Engineer" "Mercury Holidays" "06/2019" "Present" "Sevenoaks, Kent"]
+   [:div.columns
+    [:div.left-column
+     [work-experience]
+     [experience-header "Software Engineer" "Mercury Holidays" "06/2019" "Present" "Sevenoaks, Kent"]]
+    [:div.right-column
+     [work-experience]
+     [experience-header "Software Engineer" "Mercury Holidays" "06/2019" "Present" "Sevenoaks, Kent"]]]
    ])
 
 (reagent/render [content] (.getElementById js/document "app"))
