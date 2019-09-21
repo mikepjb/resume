@@ -43,10 +43,10 @@
     [summary-links]]
    [:hr]
    [:div.columns
-    [:div.left-column
+    [:div.column
      [column-section "Work Experience"]
      [experience-header "Software Engineer" "Mercury Holidays" "06/2019" "Present" "Sevenoaks, Kent"]]
-    [:div.right-column
+    [:div.column
      [column-section "Open Source"]
      [column-section "Education"]
      [experience-header "Software Engineer" "Mercury Holidays" "06/2019" "Present" "Sevenoaks, Kent"]

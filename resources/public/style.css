@@ -47,3 +47,10 @@ svg { width: 24px; }
     display: flex;
     justify-content: space-between;
 }
+
+.column {
+    flex: 50%;
+}
+
+/* keep a nice gap between the two columns */
+.column:first-child {margin: 0 64px 0 0;}
