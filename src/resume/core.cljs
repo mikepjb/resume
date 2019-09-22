@@ -60,7 +60,7 @@
      [detail
       "Built a backend service to collate and serve information from legacy systems to the frontend."
       "Introduced grpc/swagger documented API to improve service visibility."
-      "Designed data models and diagrammed this to communicate progress in the team and wider company."
+      "Designed data models and diagrammed this to aid communication in the team and wider company."
       "Improved reliability for search indexes in Algolia."]
      [experience-header "Developer" "Strategic Blue" "02/2017" "06/2019" "London Bridge"]
      [detail
