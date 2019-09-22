@@ -32,9 +32,13 @@
    [:div ;; {:style {:margin-right 100}}
     [:h5 title]
     [:h6 company-name]]
-   [:div
+   [:div {:style {:text-align "right"}}
     [:div (str from " - " to)]
     [:div location]]])
+
+(defn project-header
+  [title]
+  [:div [:h5 title]])
 
 (defn detail
   [& pts]
@@ -76,11 +80,22 @@
      ]
     [:div.column
      [column-section "Open Source & Projects"]
+     [project-header "tpope/fireplace.vim"]
+     [project-header "juxt/pack.alpha"]
+     [project-header "nutrack"]
+     [project-header "go-nutrack"]
+     [project-header "sysconf"]
+     [project-header "citadel"]
      [column-section "Education"]
      [experience-header "Computer Science BSc, 1st Class" "The University of Hertfordshire" "09/2009" "06/2013" "Hatfield, Hertfordshire"]
      [experience-header "3 A Level, 1 AS Level" "Weald of Kent Grammar School" "09/2007" "06/2009" "Tonbridge, Kent"]
      [column-section "Skills"]
-
+     [detail
+      "Ruby 3 years"
+      "AWS Cloud Practictioner - used for ages"
+      "Postgres"
+      "Arch Linux"
+      "UX basics (refactoring ui/uxmovement)"]
      ]]
    ])
 

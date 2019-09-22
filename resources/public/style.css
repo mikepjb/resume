@@ -9,16 +9,16 @@ body {
 }
 
 /* page already has margin in firefox. */
-@media print {body {margin: 0;}}
+@media print {body {margin: 0px;}}
 
 h1, h2, h3, h4 { margin: 16px 0; }
 
-h3 {font-size: 28px;}
+h3 {font-size: 28px; margin-top: 0;}
 h4 {font-size: 24px; text-decoration: underline; text-decoration-style: dotted;}
 h5 {font-size: 20px; margin: 4px 0;}
 h6 {font-size: 16px; margin: 0;}
 
-ul { margin: 4px 20px; padding: 0;}
+ul {font-size: 14px; margin: 4px 20px; padding: 0;}
 
 a {
     color: #000;
