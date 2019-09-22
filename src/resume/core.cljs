@@ -97,13 +97,13 @@
      [detail "A lighter version of sysconf, allowing configuration via edn."]
      [column-section "Education"]
      [experience-header "Computer Science BSc" "The University of Hertfordshire" "09/2009" "06/2013" "Hertfordshire"]
-     [detail "1st Class, also ran the Discussion Society"]
+     [detail "1st Class, also ran the Discussion Society."]
      [experience-header "3 A Levels, 1 AS Level" "Weald of Kent Grammar School" "09/2007" "06/2009" "Tonbridge, Kent"]
-     [detail "Maths, Physics, Chemistry, Biology"]
+     [detail "Maths, Physics, Chemistry, Biology."]
      [column-section "Skills"]
      [detail
       "Adept Emacs & Vim user"
-      "Familiar with Clojure(script) (2.5 years), Ruby (5 years), Arch Linux (5+ years), AWS (5+ years), PostgreSQL (5+ years) and MongoDB (2.5+ years)"
+      "Familiar with Clojure(script) (2.5 years), Ruby (5 years), Arch Linux (5+ years), AWS (5+ years), PostgreSQL (5+ years) and MongoDB (2.5+ years)."
       "UX and usability design basics."]
      ]]
    ])
