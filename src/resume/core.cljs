@@ -10,17 +10,19 @@
    [:h5 "Software Engineer"]
    [:p "A resourceful software enthusiast with 6 years of experience in software development. Keen to provide business value and deliver things that matter."]])
 
+(defn create-links [url & links]
+  [:div (map (fn [l] [:a {:href url} l]) links)])
+
 (defn summary-links
   "tiny links/icons that sit in the top right of my CV."
   []
   [:div.summary-links
-   [:div "me@michaelbruce.co" svg/mail]
-   [:div [:a {:href "https://github.com/mikepjb"} "github.com/mikepjb"] svg/github]
-   [:div [:a {:href "07714030087"} "07714030087"] svg/phone]
-   [:div [:a {:href "https://www.linkedin.com/in/mikepjb"} "linkedin.com/in/mikepjb"] svg/linkedin]
-   [:div "Sevenoaks, England" svg/location]
-   [:div [:a {:href "https://michaelbruce.co"} "michaelbruce.co"] svg/globe]
-])
+   [create-links "mailto:me@michaelbruce.co" "me@michaelbruce.co" svg/mail]
+   [create-links "https://github.com/mikepjb" "github.com/mikepjb" svg/github]
+   [create-links "tel:07714030087" "07714 030087" svg/phone]
+   [create-links "https://www.linkedin.com/in/mikepjb" "linkedin.com/in/mikepjb" svg/linkedin]
+   [create-links "https://www.google.com/maps/place/Sevenoaks/" "Sevenoaks, England" svg/location]
+   [create-links "https://michaelbruce.co" "michaelbruce.co" svg/globe]])
 
 (defn column-section
   [title]
