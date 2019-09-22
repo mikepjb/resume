@@ -103,7 +103,7 @@
      [column-section "Skills"]
      [detail
       "Adept Emacs & Vim user"
-      "Familiar with Clojure(script) (2.5 years), Ruby (5 years), Arch Linux (5+ years), AWS (5+ years), PostgreSQL (5+ years) and MongoDB (2.5+ years)."
+      "Familiar with Clojure(script) (2.5 years), Ruby (5 years), Arch Linux (5+ years), AWS (5+ years), PostgreSQL (5+ years), MongoDB (2.5 years) and Redis (3 years)."
       "UX and usability design basics."]
      ]]
    ])
