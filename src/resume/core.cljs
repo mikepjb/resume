@@ -36,6 +36,11 @@
     [:div (str from " - " to)]
     [:div location]]])
 
+(defn detail
+  [& pts]
+  [:ul
+   (map (fn [p] [:li p]) pts)])
+
 (defn content []
   [:div
    [:div.header
@@ -46,6 +51,9 @@
     [:div.column
      [column-section "Work Experience"]
      [experience-header "Software Engineer" "Mercury Holidays" "06/2019" "Present" "Sevenoaks, Kent"]
+     [detail
+      "one point"
+      "second point"]
      [experience-header "Developer" "Strategic Blue" "02/2017" "06/2019" "London Bridge, London"]
      [experience-header "Developer" "Singletrack" "04/2014" "02/2017" "Old Street, London"]
      [experience-header "Technical Analyst" "M&C Saatchi Mobile" "09/2013" "02/2014" "Leicester Square, London"]
