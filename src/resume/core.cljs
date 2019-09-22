@@ -52,12 +52,27 @@
      [column-section "Work Experience"]
      [experience-header "Software Engineer" "Mercury Holidays" "06/2019" "Present" "Sevenoaks, Kent"]
      [detail
-      "one point"
-      "second point"]
+      "Building a data-centric backend system for serving new technology at the company."
+      "Designed data models and diagrammed this to communicate progress in the team and wider company."
+      "Coordinating a team of 3 to deliver.."]
      [experience-header "Developer" "Strategic Blue" "02/2017" "06/2019" "London Bridge, London"]
+     [detail
+      "Rallied together with a team of 6 developers to rewrite (and extensively test) our billing engine, to greatly reduce cost of maintenance."
+      "Brought a data science project in R to production, wrapped in a yada web server."
+      "Improved report generation by using wkhtmltopdf over LaTeX."
+      "Responsible for management & maintenance of a set of Ruby microservices."
+      "Imp"]
      [experience-header "Developer" "Singletrack" "04/2014" "02/2017" "Old Street, London"]
+     [detail
+      "Responsible for ensuring portal could be rolled out in China with CI/CD and be accessible across the world."
+      "Created a failover utility for changing email marketing networks."
+      "Worked directly with vendors to ensure client research could be distributed."
+      "Worked directly with clients to ensure their data was correctly loaded."]
      [experience-header "Technical Analyst" "M&C Saatchi Mobile" "09/2013" "02/2014" "Leicester Square, London"]
+     [detail
+      "Responsible for providing unique tracking IDs for advertisments, collating metrics and reporting back to multiple teams."]
      [experience-header "Android Developer" "Magazine Cloner" "06/2012" "08/2012" "Old Street, London"]
+     [detail "Created a recipe app for a client."]
      ]
     [:div.column
      [column-section "Open Source & Projects"]
