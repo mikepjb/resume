@@ -8,15 +8,14 @@ body {
     margin: 32px;
 }
 
-/* page already has margin in firefox. */
-@media print {body {margin: 0px;}}
-
 h1, h2, h3, h4 { margin: 16px 0; }
 
-h3 {font-size: 28px; margin-top: 0;}
-h4 {font-size: 24px; text-decoration: underline; text-decoration-style: dotted;}
-h5 {font-size: 20px; margin: 4px 0;}
+h3 {font-size: 28px; margin: 0 0 8px 0;}
+h4 {font-size: 20px; margin: 8px 0; text-decoration: underline; text-decoration-style: dotted;}
+h5 {font-size: 18px; margin: 4px 0;}
 h6 {font-size: 16px; margin: 0;}
+p {font-size: 14px;}
+hr {height: 2px; border: none; background-color: #aaa;}
 
 .inline {display: inline-block;}
 
@@ -36,7 +35,7 @@ svg.linkedin { width: 18px; height: 18px;}
 
 .header {
     display: flex;
-    align-items: baseline;
+    align-items: center;
     justify-content: space-between;
 }
 
