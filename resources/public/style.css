@@ -18,6 +18,8 @@ h4 {font-size: 24px; text-decoration: underline; text-decoration-style: dotted;}
 h5 {font-size: 20px; margin: 4px 0;}
 h6 {font-size: 16px; margin: 0;}
 
+.inline {display: inline-block;}
+
 ul {font-size: 14px; margin: 4px 20px; padding: 0;}
 
 a {
@@ -25,7 +27,10 @@ a {
     text-decoration: none;
 }
 
-svg { width: 24px; }
+svg { width: 18px; margin: 0 2px 0 5px;}
+.summary-links svg { width: 18px; margin: 0 2px 2px 5px;}
+svg.location { width: 18px; height: 18px;}
+svg.linkedin { width: 18px; height: 18px;}
 .primary { fill: #777; }
 .secondary { fill: #000; }
 
