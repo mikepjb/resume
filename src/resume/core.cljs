@@ -58,6 +58,9 @@
    [:div.columns
     [:div.column
      [column-section "Work Experience"]
+     [detail
+      "DUDE GOLDFISH, SKUNK, [hide names for CS/tier1 bank privacy], CONDOR"
+      ]
      [experience-header "Software Engineer" "Mercury Holidays" "06/2019" "Present" "Sevenoaks, Kent"]
      [detail
       "Built a backend service to collate and serve information from legacy systems to the frontend."
